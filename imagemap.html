@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href=page.css>
+    <title>IMAGE MAP</title>
+  </head>
+  <body>
+    <button class="button" onclick="goBack()">Go Back</button>
+
+  <script>
+  function goBack() {
+   window.history.back();
+  }
+  </script>
+  <div style="display:flex; justify-content: center; align-items: center; height:100%; margin-top:40px;">
+    <img src="images/iphone.webp" usemap="#image-map" >
+  </div>
+
+
+
+
+<map name="image-map">
+    <area target="" alt="Iphone 12 mini" title="" href="iphone12mini.html" coords="111,86,159,223" shape="rect">
+    <area target="" alt="" title="" href="iphone12pro.html" coords="172,73,227,157" shape="rect">
+    <area target="" alt="" title="" href="iphone12promax.html" coords="341,54,247,205" shape="rect">
+</map>
+
+  </body>
+</html>

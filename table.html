@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="page.css">
+
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+  <button class="button" onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+ window.history.back();
+}
+</script>
+
+<h2 style="text-align:center; margin-bottom:20px;">Student Data</h2>
+
+<table>
+  <tr>
+    <th class="head">First Name</th>
+    <th class="head">Last Name</th>
+    <th class="head">Registration No</th>
+  </tr>
+  <tr>
+    <td>Tushar</td>
+    <td>Nayan</td>
+    <td>201800673</td>
+  </tr>
+  <tr>
+    <td>Nikunj</td>
+    <td>Baid</td>
+    <td>201800195</td>
+  </tr>
+  <tr>
+    <td>Abdul</td>
+    <td>Basit</td>
+    <td>2018093883</td>
+  </tr>
+  <tr>
+    <td>Prakhar</td>
+    <td>Sharma</td>
+    <td>201809382</td>
+  </tr>
+
+</table>
+
+</body>
+</html>
