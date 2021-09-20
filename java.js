@@ -36,3 +36,17 @@ console.log(type);
   });
 
 }
+function changeColor(){
+var element=document.getElementsByClassName("mypara");
+for(var x=0;x<element.length;x++){
+  element[x].style.color="red";
+  element[x].style.fontSize="30px";
+}
+}
+function changeColor2(){
+var element=document.getElementsByClassName("mypara2");
+for(var x=0;x<element.length;x++){
+  element[x].style.color="green";
+  element[x].style.fontSize="40px";
+}
+}
