@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="lab6.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <title>LAB 6</title>
+  </head>
+  <body>
+    <button class="button1" onclick="goBack()">Go Back</button>
+    <script>
+    function goBack() {
+     window.history.back();
+    }
+
+
+    </script>
+    <div class="container">
+
+
+    <form class="form">
+      <h3 style="margin-bottom:20px;color:blue;">CALCULATOR</h3>
+1st Number : <input type="text" id="firstNumber" /><br>
+2nd Number: <input style="margin-top:30px;" type="text" id="secondNumber" /><br>
+<input type="button" style="margin:30px;" onClick="multiplyBy()" Value="Multiply" />
+<input type="button" style="margin:30px;" onClick="divideBy()" Value="Divide" />
+  <input type="button"  style="margin:30px;" onClick="AddBy()" Value="ADD" />
+  <input type="button" style="margin:30px;" onClick="SUBTRACTBy()" Value="SUBTRACT" />
+    <input type="reset"style="margin:30px;" value="Reset">
+
+</form>
+<p>The Result is : <br>
+<span id = "result"></span>
+</p>
+  </div>
+
+  <div class="Element">
+    <h3>getElementById()</h3>
+    <p id="changetext" style="font-size:20px;"> Click here to Change the Content,font and color. </p>
+
+    <button type="button" id="button" name="button">Try it</button>
+
+  </div>
+
+    <script src="test.js">
+
+    </script>
+
+  </body>
+</html>
