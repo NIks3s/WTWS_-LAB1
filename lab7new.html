@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JAVASCRIPT FUNCTION</title>
+      <link rel="stylesheet" href="lab7.css">
+  </head>
+  <body>
+
+    <button class="button" onclick="goBack()">Go Back</button>
+    <script>
+    function goBack() {
+     window.history.back();
+    }
+    </script>
+
+
+    <!-- IDEA: Delete a property from object -->
+
+
+    <h1>Delete a property from an object</h1>
+    <p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.</span></p>
+    <p id="obj"></p>
+    <p><b>After clicking on delete button roll number will be shown as undefined</b></p>
+    <button style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;" onclick="Remove()"> Delete </button>
+
+    <!-- IDEA: Get the length of above object -->
+
+    <h1>Get the length of object</h1>
+    <p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript program to get the length of a JavaScript object.</span></p>
+    <p id="abc"></p>
+    <p id="xyz">Length of object</p>
+    <p><b>After clicking on length button get the length</b></p>
+    <button style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;" onclick="Length()"> Length </button>
+
+<!-- IDEA: Display the reading status -->
+
+<h1>Display the reading status</h1>
+<p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.</span></p>
+<p id="see"></p>
+  <p id="text">Books You have read</p>
+
+  <p id="text1">Books You have'nt read</p>
+
+  <button style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;" onclick="Change()">Change</button>
+
+<!-- IDEA: VOlume of cylinder -->
+  <form id="register">
+
+  	<h1>Volume of cylinder</h1>
+    <p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.</span></p>
+  	<fieldset>
+  		<legend>Enter Information</legend>
+  		<div>
+  			<label >Enter the radius of cylinder
+  			<input id="radi" name="rad" type="number" placeholder="Numbers Only" required autofocus>
+  			</label>
+        <label >Enter the hieght of cylinder
+  			<input id="height" name="rad" type="number" placeholder="Numbers Only" required autofocus>
+  			</label>
+  		</div>
+
+
+  	</fieldset>
+
+
+  		<div>
+  			<input style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;"id="calculate" name="calculate" type="button" value="Calculate" onClick='Cylinder();'>
+  		</div>
+
+  </form>
+
+<!-- IDEA:Sort an array of JavaScript objects  -->
+
+<h1>Sort an array of JavaScript objects</h1>
+<p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript program to sort an array of JavaScript objects</span></p>
+<p id="seen"></p>
+<p id="result">Click on button to get Result after sorting</p>
+<button style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;" onclick="answer()">CLICK</button>
+
+<!-- IDEA: SUBSTRING OF WORD:DOG -->
+
+<h1>SUBSTRING OF DOG</h1>
+<p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript program which returns a subset of a string.</span></p>
+<p id="newText">SUBSTRING OF DOG (CLICK on the below button to view substring)</p>
+<button style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;" onclick="substring()">SUBSTRING</button>
+
+
+<!-- IDEA: CALCULATE AREA AND PERIMETER OF CIRCLE -->
+<form id="register">
+	<h1>Area and circumference of a circle</h1>
+  <p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript program to calculate the area and perimeter of a circle.</span><br>
+    Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user.</p>
+	<fieldset>
+		<legend>Enter Information</legend>
+		<div>
+			<label >Enter the radius of a circle
+			<input id="rad" name="rad" type="number" placeholder="Numbers Only" required autofocus>
+			</label>
+		</div>
+
+
+	</fieldset>
+
+
+		<div>
+			<input style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;"id="calculate" name="calculate" type="button" value="Calculate" onClick='Circle();'>
+		</div>
+
+</form>
+<!-- IDEA: JavaScript function to display all methods in a object. -->
+<h1>JavaScript function to display all methods in a object.</h1>
+<p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript function to print all the methods in an JavaScript object.</span></p>
+<p>Open the console<span style="color:SlateBlue">(SHORTCUT(CHROME) : Ctrl + Shift + J || SHORTCUT(MOZILA) Ctrl + Shift + K)</span> and click on the button to diplay all the methods in a object</p>
+
+<button style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;" onclick="greet()">Click me</button>
+
+
+
+<!-- IDEA: CLOCK Per SECOND -->
+<h1>CLOCK : DISPLAY OUTPUT PER SECOND</h1>
+<p><span style="color:Tomato; font-size:20px;">Q. Write a JavaScript program to create a Clock.</span></p>
+<p>Open the console<span style="color:SlateBlue">(SHORTCUT(CHROME) : Ctrl + Shift + J || SHORTCUT(MOZILA) Ctrl + Shift + K)</span> and click on the button to get the time per second</p>
+<button style="background-color: #4CAF50; cursor:pointer;  border: none;  color: white; padding: 15px 32px;  text-align: center;text-decoration: none;display: inline-block;font-size: 16px;" onclick="clock()">START</button>
+
+
+    <script src="lab7new.js">
+
+    </script>
+  </body>
+</html>
